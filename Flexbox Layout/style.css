@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(223, 215, 215);
+  font-size: 15px;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 400;
+  padding: 30px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+.sedans {
+  background-color: rgb(194, 123, 17);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  height: 400px;
+}
+.sedans button {
+  color: rgb(194, 123, 17);
+  border: rgb(194, 123, 17);
+}
+
+.suvs {
+  background-color: rgb(20, 78, 78);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  height: 400px;
+}
+.suvs button {
+  color: rgb(20, 78, 78);
+  border: rgb(20, 78, 78);
+}
+
+.luxury {
+  background-color: rgb(12, 41, 31);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  height: 400px;
+}
+.luxury button {
+  color: rgb(12, 41, 31);
+  border: rgb(12, 41, 31);
+}
+
+button {
+  border-radius: 25px;
+  padding: 8px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
