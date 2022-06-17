@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./bg-intro-desktop.png);
+    background-color: rgb(245, 90, 90);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+} 
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'a c';
+    gap: 20px;
+}
+
+h3{
+    padding-bottom: 50px;
+    margin-top: 150px;
+    font-size: 35px;
+} 
+
+.form-top{
+    background-color: rgb(92, 74, 156);
+    color: white;
+    box-shadow: 2px 2px;
+    font-size: 10px;
+    grid-area: b;
+    height: 30px;
+    fo
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* width: fit-content; */
+}
+
+form input{
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 10px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-body{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 90, 90);
+    color: black;
+    grid-area: c;
+    padding: 50px;
+}
+
+button{
+    background-color: rgb(72, 163, 72);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: 1px solid green;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.terms{
+    display: flex;
+    color: red;
+    font-size: 8px;
+}
+
+.Learn {
+    color: white;
+    grid-area: a;
+}
+
+.see{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.form-bottom{
+    font-size: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 240px) {
+    body{
+        background-image: url(./bg-intro-mobile.png);
+    }    
+}
