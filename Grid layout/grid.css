@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(8, 8, 32);
+  display: flex;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+main div {
+  padding: 80px;
+}
+
+.a {
+  background-color: red;
+  grid-area: a;
+}
+
+.b {
+  background-color: rgb(221, 168, 22);
+  grid-area: b;
+}
+
+.c {
+  background-color: green;
+  grid-area: c;
+}
+
+.d {
+  background-color: rgb(8, 156, 214);
+  grid-area: d;
+}
+
+.e {
+  background-color: rgb(8, 156, 214);
+  grid-area: e;
+}
