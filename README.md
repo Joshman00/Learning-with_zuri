@@ -10,4 +10,4 @@ Using Flexbox to position elements
 using Grid layout to position elements
 
 JAVASCRIPT
-Assigning values to a variable
+Created a simple calculator function for adding, subtracting, multiplying and dividing integers without a user UI
